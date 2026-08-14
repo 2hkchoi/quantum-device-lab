@@ -1,240 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-
-  <meta
-    name="description"
-    content="Quantum Device Lab at Jeonbuk National University"
-  >
-
-  <title>
-    Quantum Device Lab | Jeonbuk National University
-  </title>
-
- <link rel="stylesheet" href="style.css?v=4">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quantum Device Lab at Jeonbuk National University — quantum transport, correlated electron systems, quantum thermodynamics, and nanoscale quantum devices.">
+  <title>Quantum Device Lab | Jeonbuk National University</title>
+  <link rel="stylesheet" href="style.css?v=5">
 </head>
-
-
 <body>
 
-
 <header class="site-header">
-
   <div class="container nav-wrap">
-
-    <a class="brand" href="index.html">
-
-      <span class="brand-name">
-        Quantum Device Lab
+    <a class="brand" href="index.html" aria-label="Quantum Device Lab home">
+      <span class="brand-mark">QDL</span>
+      <span class="brand-copy">
+        <span class="brand-name">Quantum Device Lab</span>
+        <span class="brand-university">Jeonbuk National University</span>
       </span>
-
-      <span class="brand-university">
-        Jeonbuk National University
-      </span>
-
     </a>
 
-
-    <nav>
-
-      <a href="research.html">
-        Research
-      </a>
-
-      <a href="people.html">
-        People
-      </a>
-
-      <a href="publications.html">
-        Publications
-      </a>
-
-      <a href="facilities.html">
-        Facilities
-      </a>
-
-      <a href="join.html">
-        Join Us
-      </a>
-
-      <a href="contact.html">
-        Contact
-      </a>
-
+    <nav aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="join.html">Join Us</a>
+      <a href="contact.html">Contact</a>
     </nav>
-
   </div>
-
 </header>
 
-
-
 <main>
+  <section class="hero">
+    <div class="hero-glow hero-glow-one"></div>
+    <div class="hero-glow hero-glow-two"></div>
 
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="hero-kicker">Quantum Device Lab · QDL</div>
+        <h1>Exploring quantum phenomena in nanoscale devices.</h1>
+        <p class="hero-description">
+          We investigate quantum transport, electronic correlations, and thermodynamic
+          properties of mesoscopic quantum systems.
+        </p>
 
-<section class="hero">
-
-  <div class="container hero-inner">
-
-    <div class="hero-kicker">
-      Quantum Device Lab
-    </div>
-
-
-    <h1>
-      Exploring quantum phenomena
-      in nanoscale devices.
-    </h1>
-
-
-    <p class="hero-description">
-
-      We investigate quantum transport,
-      electronic correlations, and thermodynamic
-      properties of mesoscopic quantum systems.
-
-    </p>
-
-
-    <div class="hero-line"></div>
-
-  </div>
-
-</section>
-
-
-
-<section class="research">
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <div class="section-label">
-        Research
+        <div class="hero-actions">
+          <a class="button button-primary" href="#research">Explore our research</a>
+          <a class="button button-secondary" href="join.html">Join the lab</a>
+        </div>
       </div>
 
-      <h2>
-        Our Research
-      </h2>
+      <div class="device-visual" aria-hidden="true">
+        <div class="device-grid"></div>
+        <div class="gate gate-top"></div>
+        <div class="gate gate-right"></div>
+        <div class="gate gate-bottom"></div>
+        <div class="gate gate-left"></div>
+        <div class="quantum-ring ring-one"></div>
+        <div class="quantum-ring ring-two"></div>
+        <div class="quantum-dot"></div>
+        <span class="particle particle-a"></span>
+        <span class="particle particle-b"></span>
+        <span class="particle particle-c"></span>
+      </div>
+    </div>
 
-<div class="research-grid">
+    <div class="container hero-foot">
+      <span>Department of Physics</span>
+      <span class="hero-foot-line"></span>
+      <span>Jeonju, Republic of Korea</span>
+    </div>
+  </section>
 
-  <article class="research-item">
-    <span class="research-number">
-      01
-    </span>
+  <section class="research" id="research">
+    <div class="container">
+      <div class="section-intro">
+        <div>
+          <div class="section-label">Research</div>
+          <h2>Quantum matter, one device at a time.</h2>
+        </div>
+        <p>
+          Our experiments use tunable nanoscale devices to reveal how charge, spin,
+          coherence, entropy, and many-body correlations emerge at the quantum level.
+        </p>
+      </div>
 
-    <h3>
-      Quantum Dots
-    </h3>
+      <div class="research-grid">
+        <article class="research-card">
+          <div class="card-topline"><span>01</span><span>Quantum Devices</span></div>
+          <div class="research-icon dots-icon"><i></i><i></i><i></i><i></i><i></i></div>
+          <h3>Quantum Dots</h3>
+          <p>Charge, spin, and orbital degrees of freedom in tunable semiconductor quantum dots.</p>
+          <a href="research.html">Learn more <span>↗</span></a>
+        </article>
 
-    <p>
-      Charge, spin, and orbital degrees of freedom
-      in tunable semiconductor quantum dots.
-    </p>
-  </article>
+        <article class="research-card">
+          <div class="card-topline"><span>02</span><span>Many-body Physics</span></div>
+          <div class="research-icon correlation-icon"><i></i><i></i><i></i></div>
+          <h3>Strongly Correlated Systems</h3>
+          <p>Many-body quantum phenomena including Kondo correlations and emergent states in mesoscopic systems.</p>
+          <a href="research.html">Learn more <span>↗</span></a>
+        </article>
 
+        <article class="research-card">
+          <div class="card-topline"><span>03</span><span>Entropy &amp; Heat</span></div>
+          <div class="research-icon thermo-icon"><i></i></div>
+          <h3>Quantum Thermodynamics</h3>
+          <p>Entropy, degeneracy, and thermodynamic properties of nanoscale quantum systems.</p>
+          <a href="research.html">Learn more <span>↗</span></a>
+        </article>
 
-  <article class="research-item">
-    <span class="research-number">
-      02
-    </span>
+        <article class="research-card">
+          <div class="card-topline"><span>04</span><span>2D Materials</span></div>
+          <div class="research-icon graphene-icon"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <h3>Graphene-based Devices</h3>
+          <p>Quantum electronic phenomena in graphene-based nanoscale devices and heterostructures.</p>
+          <a href="research.html">Learn more <span>↗</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
 
-    <h3>
-      Strongly Correlated Systems
-    </h3>
-
-    <p>
-      Many-body quantum phenomena including
-      Kondo correlations and emergent states
-      in mesoscopic systems.
-    </p>
-  </article>
-
-
-  <article class="research-item">
-    <span class="research-number">
-      03
-    </span>
-
-    <h3>
-      Quantum Thermodynamics
-    </h3>
-
-    <p>
-      Entropy, degeneracy, and thermodynamic
-      properties of nanoscale quantum systems.
-    </p>
-  </article>
-
-
-  <article class="research-item">
-    <span class="research-number">
-      04
-    </span>
-
-    <h3>
-      Graphene-based Devices
-    </h3>
-
-    <p>
-      Quantum electronic phenomena in graphene-based
-      nanoscale devices and heterostructures.
-    </p>
-  </article>
-
-</div>
-
-  </div>
-
-</section>
-
-
+  <section class="lab-focus">
+    <div class="container focus-grid">
+      <div>
+        <div class="section-label section-label-light">Our approach</div>
+        <h2>Precision experiments for fundamental quantum physics.</h2>
+      </div>
+      <div class="focus-copy">
+        <p>
+          We build and measure nanoscale electronic systems where microscopic quantum
+          states can be controlled, coupled, and read out with high precision.
+        </p>
+        <div class="focus-links">
+          <a href="facilities.html">Experimental facilities <span>→</span></a>
+          <a href="publications.html">Publications <span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
-
-
 <footer>
-
   <div class="container footer-grid">
-
-
-    <div>
-
-      <div class="footer-title">
-        Quantum Device Lab
+    <div class="footer-brand">
+      <div class="footer-mark">QDL</div>
+      <div>
+        <div class="footer-title">Quantum Device Lab</div>
+        <div class="footer-text">Department of Physics<br>Jeonbuk National University</div>
       </div>
-
-      <div class="footer-text">
-        Department of Physics<br>
-        Jeonbuk National University<br>
-        Jeonju, Republic of Korea
-      </div>
-
     </div>
 
+    <div class="footer-links">
+      <a href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="join.html">Join Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
 
     <div class="footer-right footer-text">
-
-      © 2026 Quantum Device Lab<br>
-      Jeonbuk National University
-
+      Jeonju, Republic of Korea<br>
+      © 2026 Quantum Device Lab
     </div>
-
-
   </div>
-
 </footer>
 
-
 </body>
-
 </html>
