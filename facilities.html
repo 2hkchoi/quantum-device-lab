@@ -3,34 +3,116 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Experimental equipment and shared facilities used by the Quantum Device Lab at Jeonbuk National University.">
   <title>Facilities | Quantum Device Lab</title>
-  <link rel="stylesheet" href="style.css?v=8">
-  <link rel="stylesheet" href="pages.css?v=8">
+  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="pages.css?v=9">
+  <link rel="stylesheet" href="facilities.css?v=1">
 </head>
 <body>
 <header class="site-header">
   <div class="container nav-wrap">
-    <a class="brand" href="index.html"><span class="brand-mark">QDL</span><span class="brand-copy"><span class="brand-name">Quantum Device Lab</span><span class="brand-university">Jeonbuk National University</span></span></a>
-    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="people.html">People</a><a href="publications.html">Publications</a><a class="active" href="facilities.html">Facilities</a><a href="join.html">Join Us</a><a href="contact.html">Contact</a></nav>
+    <a class="brand" href="index.html" aria-label="Quantum Device Lab home">
+      <span class="brand-mark">QDL</span>
+      <span class="brand-copy">
+        <span class="brand-name">Quantum Device Lab</span>
+        <span class="brand-university">Jeonbuk National University</span>
+      </span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a class="active" href="facilities.html">Facilities</a>
+      <a href="join.html">Join Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </div>
 </header>
+
 <main>
-  <section class="page-hero">
-    <div class="container"><div class="section-label">Facilities</div><h1>Laboratory facilities will be introduced here.</h1><p>Equipment photographs, specifications, and measurement capabilities will be added as the facilities profile is prepared.</p></div>
-  </section>
-  <section class="page-section soft">
+  <section class="page-hero facilities-page-hero">
     <div class="container">
-      <h2 class="page-title">Experimental facilities</h2>
-      <p class="page-lead">This layout is ready for equipment photographs and detailed descriptions.</p>
-      <div class="content-grid placeholder-grid">
-        <article class="content-card"><span class="tag">Facility 01</span><div class="placeholder-visual" aria-hidden="true"></div><h3>Equipment profile</h3><span class="placeholder-status">Photo and details coming soon</span></article>
-        <article class="content-card"><span class="tag">Facility 02</span><div class="placeholder-visual" aria-hidden="true"></div><h3>Equipment profile</h3><span class="placeholder-status">Photo and details coming soon</span></article>
-        <article class="content-card"><span class="tag">Facility 03</span><div class="placeholder-visual" aria-hidden="true"></div><h3>Equipment profile</h3><span class="placeholder-status">Photo and details coming soon</span></article>
-        <article class="content-card"><span class="tag">Facility 04</span><div class="placeholder-visual" aria-hidden="true"></div><h3>Equipment profile</h3><span class="placeholder-status">Photo and details coming soon</span></article>
+      <div class="section-label">Facilities</div>
+      <h1>Experimental tools for quantum-device research.</h1>
+      <p>QDL combines in-lab equipment for low-temperature experiments and device characterization with shared fabrication and analysis facilities.</p>
+    </div>
+  </section>
+
+  <section class="page-section facility-section">
+    <div class="container">
+      <div class="facility-section-header">
+        <div>
+          <span class="facility-badge">QDL Equipment</span>
+          <h2 class="page-title">In-lab equipment</h2>
+        </div>
+        <p class="facility-section-copy">Core equipment used directly within the Quantum Device Lab for low-temperature measurements, device handling, electrical characterization, bonding, microscopy, and rapid prototyping.</p>
+      </div>
+
+      <figure class="facility-board">
+        <img src="assets/facilities/qdl-equipment.webp" alt="Quantum Device Lab equipment including dilution refrigerator, cryocooler, transfer station, probe station, wire bonder, SEM, and 3D printer">
+      </figure>
+
+      <div class="facility-name-grid" aria-label="QDL equipment list">
+        <div class="facility-name"><span class="facility-name-index">01</span><strong>Dry Dilution Refrigerator</strong></div>
+        <div class="facility-name"><span class="facility-name-index">02</span><strong>4K Cryocooler</strong></div>
+        <div class="facility-name"><span class="facility-name-index">03</span><strong>2D Transfer Station</strong></div>
+        <div class="facility-name"><span class="facility-name-index">04</span><strong>Probe Station</strong></div>
+        <div class="facility-name"><span class="facility-name-index">05</span><strong>Wedge Wire Bonder</strong></div>
+        <div class="facility-name"><span class="facility-name-index">06</span><strong>Scanning Electron Microscope (SEM)</strong></div>
+        <div class="facility-name"><span class="facility-name-index">07</span><strong>3D Printer</strong></div>
       </div>
     </div>
   </section>
+
+  <section class="page-section facility-section shared-facilities">
+    <div class="container">
+      <div class="facility-section-header">
+        <div>
+          <span class="facility-badge">Shared Facilities</span>
+          <h2 class="page-title">Shared fabrication &amp; characterization tools</h2>
+        </div>
+        <p class="facility-section-copy">Additional fabrication and characterization equipment is available through shared facilities at Jeonbuk National University.</p>
+      </div>
+
+      <figure class="facility-board">
+        <img src="assets/facilities/shared-equipment.webp" alt="Shared facilities including SEM, thermal evaporator, mask aligners, profilometer, plasma cleaner, sputtering system, and ICP RIE">
+      </figure>
+
+      <div class="facility-name-grid" aria-label="Shared facilities equipment list">
+        <div class="facility-name"><span class="facility-name-index">01</span><strong>Scanning Electron Microscope (SEM)</strong></div>
+        <div class="facility-name"><span class="facility-name-index">02</span><strong>Thermal Evaporator</strong></div>
+        <div class="facility-name"><span class="facility-name-index">03</span><strong>Mask Aligner 1</strong></div>
+        <div class="facility-name"><span class="facility-name-index">04</span><strong>Mask Aligner 2</strong></div>
+        <div class="facility-name"><span class="facility-name-index">05</span><strong>Stylus Profilometer</strong></div>
+        <div class="facility-name"><span class="facility-name-index">06</span><strong>Plasma Cleaner</strong></div>
+        <div class="facility-name"><span class="facility-name-index">07</span><strong>Sputtering System</strong></div>
+        <div class="facility-name"><span class="facility-name-index">08</span><strong>ICP RIE</strong></div>
+      </div>
+      <p class="facility-note">Shared-facility equipment is listed separately from equipment operated directly within QDL.</p>
+    </div>
+  </section>
 </main>
-<footer><div class="container footer-grid"><div class="footer-brand"><div class="footer-mark">QDL</div><div><div class="footer-title">Quantum Device Lab</div><div class="footer-text">Department of Physics<br>Jeonbuk National University</div></div></div><div class="footer-links"><a href="research.html">Research</a><a href="people.html">People</a><a href="publications.html">Publications</a><a href="join.html">Join Us</a><a href="contact.html">Contact</a></div><div class="footer-right footer-text">Jeonju, Republic of Korea<br>© 2026 Quantum Device Lab</div></div></footer>
+
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="footer-mark">QDL</div>
+      <div>
+        <div class="footer-title">Quantum Device Lab</div>
+        <div class="footer-text">Department of Physics<br>Jeonbuk National University</div>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="join.html">Join Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-right footer-text">Jeonju, Republic of Korea<br>© 2026 Quantum Device Lab</div>
+  </div>
+</footer>
 </body>
 </html>
