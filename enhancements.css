@@ -164,3 +164,6 @@ main:focus { outline: none; }
 .join-contact h2 span { font-weight:500; }
 .join-email { margin-top:22px; color:#3f568a; font-size:clamp(18px,3vw,24px); overflow-wrap:anywhere; }
 .person-name-en { font-size:.72em; font-weight:500; color:#596780; }
+
+.join-invitation { max-width:760px; margin-bottom:22px; color:#566176; font-size:17px; line-height:1.9; }
+.join-invitation + h2 { margin-top:40px; }
