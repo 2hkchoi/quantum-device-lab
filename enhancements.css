@@ -158,3 +158,9 @@ main:focus { outline: none; }
 .research-page .theme-platform { background:none; border-left:0; border-bottom:1px solid #e8ecf3; padding:0 0 18px; }
 .research-page .selected-work { margin-top:28px; }
 @media(max-width:600px) { .research-page .research-theme { padding:34px 0; } .research-page .research-theme-copy > p { font-size:15px; } .research-page .research-page-hero { min-height:320px; } }
+
+.join-contact { max-width:900px; min-height:220px; }
+.join-contact h2 { font-size:clamp(25px,4vw,36px); letter-spacing:-.025em; }
+.join-contact h2 span { font-weight:500; }
+.join-email { margin-top:22px; color:#3f568a; font-size:clamp(18px,3vw,24px); overflow-wrap:anywhere; }
+.person-name-en { font-size:.72em; font-weight:500; color:#596780; }
