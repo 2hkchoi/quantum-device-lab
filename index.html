@@ -5,9 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Quantum Device Lab at Jeonbuk National University — an experimental physics research group in Jeonju, Republic of Korea.">
   <title>Quantum Device Lab | Jeonbuk National University</title>
-  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="style.css?v=20261028">
+<link rel="canonical" href="https://2hkchoi.github.io/quantum-device-lab/index.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#07111f">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Quantum Device Lab">
+<meta property="og:title" content="Quantum Device Lab | Jeonbuk National University">
+<meta property="og:description" content="Quantum Device Lab at Jeonbuk National University — an experimental physics research group in Jeonju, Republic of Korea.">
+<meta property="og:url" content="https://2hkchoi.github.io/quantum-device-lab/index.html">
+<link rel="stylesheet" href="enhancements.css?v=4">
+<script src="site.js?v=4" defer></script>
 </head>
-<body>
+<body class="home-page">
+<a class="skip-link" href="#main-content">Skip to content</a>
 
 <header class="site-header">
   <div class="container nav-wrap">
@@ -19,8 +30,9 @@
       </span>
     </a>
 
-    <nav aria-label="Main navigation">
-      <a class="active" href="index.html">Home</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+<nav id="main-navigation" aria-label="Main navigation">
+      <a class="active" aria-current="page" href="index.html">Home</a>
       <a href="research.html">Research</a>
       <a href="people.html">People</a>
       <a href="publications.html">Publications</a>
@@ -31,7 +43,7 @@
   </div>
 </header>
 
-<main>
+<main id="main-content" tabindex="-1">
   <section class="hero">
     <div class="hero-glow hero-glow-one"></div>
     <div class="hero-glow hero-glow-two"></div>
@@ -39,86 +51,24 @@
     <div class="container hero-grid">
       <div class="hero-copy">
         <div class="hero-kicker">Quantum Device Lab · QDL</div>
-        <h1>Exploring quantum phenomena through precision experiments.</h1>
+        <h1>Quantum devices.<br>Fundamental questions.<br><span class="hero-emphasis">Precision experiments.</span></h1>
         <p class="hero-description">
-          Quantum Device Lab is an experimental physics research group at
-          Jeonbuk National University.
+          We explore how electrons interfere, interact, and carry energy in nanoscale devices. Our experiments at Jeonbuk National University connect quantum behavior to measurable signals.
         </p>
 
         <div class="hero-actions">
-          <a class="button button-primary" href="people.html">Meet the group</a>
-          <a class="button button-secondary" href="publications.html">Publications</a>
+          <a class="button button-primary" href="research.html">Explore our research</a>
+          <a class="button button-secondary" href="people.html">Meet the group</a>
         </div>
       </div>
 
-      <div class="device-visual" aria-hidden="true">
-        <div class="device-grid"></div>
-        <div class="gate gate-top"></div>
-        <div class="gate gate-right"></div>
-        <div class="gate gate-bottom"></div>
-        <div class="gate gate-left"></div>
-        <div class="quantum-ring ring-one"></div>
-        <div class="quantum-ring ring-two"></div>
-        <div class="quantum-dot"></div>
-        <span class="particle particle-a"></span>
-        <span class="particle particle-b"></span>
-        <span class="particle particle-c"></span>
-      </div>
+      <figure class="home-hero-art"><img src="assets/research/home-quantum-hero-v1.png" width="1536" height="1024" fetchpriority="high" alt="Conceptual illustration of coherent electron wave paths between electrostatic gates in a nanoscale quantum device."><figcaption>Quantum transport through a gate-defined device · Conceptual illustration</figcaption></figure>
     </div>
 
     <div class="container hero-foot">
       <span>Department of Physics</span>
       <span class="hero-foot-line"></span>
       <span>Jeonju, Republic of Korea</span>
-    </div>
-  </section>
-
-  <section class="research" id="research">
-    <div class="container">
-      <div class="section-intro">
-        <div>
-          <div class="section-label">Research</div>
-          <h2>Coherence, interactions, and control in mesoscopic quantum systems.</h2>
-        </div>
-        <p>
-          We use gate-defined quantum devices, cryogenic measurements, and numerical
-          modelling to study how individual electrons behave as waves, particles, and interacting quantum systems.
-        </p>
-      </div>
-
-      <div class="research-grid">
-        <article class="research-card">
-          <div class="card-topline"><span>01</span><span>Coherence &amp; interference</span></div>
-          <div class="theme-visual theme-visual-interference" aria-hidden="true"></div>
-          <h3>Electron Quantum Optics</h3>
-          <p>Electronic interferometers reveal coherence, dephasing, complementarity, and interaction-driven quantum Hall phenomena.</p>
-          <a href="research.html#electron-quantum-optics">Explore this theme <span>↗</span></a>
-        </article>
-
-        <article class="research-card">
-          <div class="card-topline"><span>02</span><span>Entropy &amp; correlations</span></div>
-          <div class="theme-visual theme-visual-entropy" aria-hidden="true"></div>
-          <h3>Quantum Dot Thermodynamics</h3>
-          <p>Charge sensing and precision thermometry connect microscopic quantum states to entropy and many-body correlations.</p>
-          <a href="research.html#quantum-dot-thermodynamics">Explore this theme <span>↗</span></a>
-        </article>
-
-        <article class="research-card">
-          <div class="card-topline"><span>03</span><span>Matter-wave dynamics</span></div>
-          <div class="theme-visual theme-visual-dynamics" aria-hidden="true"></div>
-          <h3>Coherent Electron Dynamics</h3>
-          <p>Open cavities and magnetic focusing expose electronic modes, spatial coherence, and energy relaxation.</p>
-          <a href="research.html#coherent-electron-dynamics">Explore this theme <span>↗</span></a>
-        </article>
-
-        <article class="research-card">
-          <div class="card-topline"><span>04</span><span>Devices &amp; instrumentation</span></div>
-          <div class="theme-visual theme-visual-measurement" aria-hidden="true"></div>
-          <h3>Quantum Devices &amp; Measurement</h3>
-          <p>Device engineering and cryogenic instrumentation enable robust control and accurate calibration of quantum systems.</p>
-          <a href="research.html#quantum-devices-measurement">Explore this theme <span>↗</span></a>
-        </article>
-      </div>
     </div>
   </section>
 
@@ -140,6 +90,7 @@
       </div>
     </div>
   </section>
+<section class="home-invitation"><div class="container invitation-grid"><div><div class="section-label">Join the exploration</div><h2>Curious about experimental<br>quantum physics?</h2><p>Discover our group and opportunities for graduate and undergraduate research.</p></div><a class="button research-button" href="join.html">Join the lab <span aria-hidden="true">→</span></a></div></section>
 </main>
 
 <footer>
@@ -156,7 +107,8 @@
       <a href="research.html">Research</a>
       <a href="people.html">People</a>
       <a href="publications.html">Publications</a>
-      <a href="join.html">Join Us</a>
+      <a href="facilities.html">Facilities</a>
+<a href="join.html">Join Us</a>
       <a href="contact.html">Contact</a>
     </div>
 
