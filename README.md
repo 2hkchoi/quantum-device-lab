@@ -14,7 +14,7 @@ Check Home and Research on desktop and mobile, including the Menu toggle and res
 
 ## Deployment
 
-Keep the existing GitHub Pages repository and publishing configuration. No framework build or package installation is required. Publish the HTML, CSS, site.js, assets, .nojekyll and sitemap.xml together. Relative asset links support the /quantum-device-lab/ project path. Verify the Pages deployment after publishing.
+The user-site repository is `2hkchoi/2hkchoi.github.io`, published from `main` at `/ (root)` with GitHub Pages. The public URL is https://2hkchoi.github.io/. No framework build or package installation is required. Publish the HTML, CSS, site.js, assets, .nojekyll, robots.txt, sitemap.xml and quantum-device-lab redirect directory together. Relative navigation and asset links resolve at the root. The legacy `/quantum-device-lab/` HTML URLs redirect to the matching root pages while preserving query strings and fragments. Verify the Pages deployment after publishing.
 
 ## Editing
 
